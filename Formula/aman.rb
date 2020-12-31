@@ -2,16 +2,16 @@
 class Aman < Formula
   desc "aman"
   homepage "https://github.com/naruhiyo/aman"
-  version "1.0.1"
+  version "1.0.2"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/naruhiyo/aman/releases/download/v1.0.1/aman_darwin_amd64.tar.gz"
-    sha256 "15cf4b1844bf49c66832b754151640d942ba981a7e6bfd03dad32569b4fc5f1e"
+    url "https://github.com/naruhiyo/aman/releases/download/v1.0.2/aman_darwin_amd64.tar.gz"
+    sha256 "e6d8731b2e81c171795993e8abafbc0fd7b85936b213f7cf2fa9852fc3679df7"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/naruhiyo/aman/releases/download/v1.0.1/aman_linux_amd64.tar.gz"
-    sha256 "2cf114d042286576e9572dca3fb16450f37f0fc96039a9465555b21632e56f42"
+    url "https://github.com/naruhiyo/aman/releases/download/v1.0.2/aman_linux_amd64.tar.gz"
+    sha256 "8635116c109866fe4b9f443b287e7cd5b2aefad4286acc5f7bdd390f4fa6336f"
   end
 
   def install
